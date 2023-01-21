@@ -1,13 +1,8 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
-
-    <div>
-      <p class="text-red-300">HOLAHOLAHOLA</p>
+    <div class="flex flex-col justify-center items-center gap-2">
+      <h1 class="font-bold text-6xl">Template Creator</h1>
+      <p class="text-xl">Vue - Quasar - Tailwind</p>
     </div>
   </q-page>
 </template>
