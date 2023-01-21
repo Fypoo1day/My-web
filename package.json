@@ -1,0 +1,42 @@
+{
+  "name": "template-creator",
+  "version": "0.0.1",
+  "description": "base model to create templates with tailwind and quasar",
+  "productName": "template-creator",
+  "author": "Emanuel Oppedisano y Lucas Bahl",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.7",
+    "@heroicons/react": "^2.0.13",
+    "@quasar/extras": "^1.0.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "axios": "^0.21.1",
+    "pinia": "^2.0.11",
+    "postcss-remove-declaration": "^1.0.0",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
